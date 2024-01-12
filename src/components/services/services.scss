@@ -1,0 +1,19 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:3rem;
+    background-color:#f6f6f6;
+    height: 100vh;
+    margin:3rem;
+    clear: both;
+
+    h2{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #26262A;
+    }
+    .title{
+        display: flex;
+        place-content: center;
+    }
+}

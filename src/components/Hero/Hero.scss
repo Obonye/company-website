@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    background-image: url("./../../assets/layered-peaks-haikei.svg");
+    background-size: cover;
+    clear: bottom;
+    
+
+    width: auto;
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:10rem ;
+        
+
+    
+
+        h1{
+            width: 80%;
+            font-size: 4.5rem;
+            color: #26262A;
+            text-align: center;
+        }
+
+        p{
+            width: 60%;
+            text-align: center;
+            font-size: 1.25rem;
+            color: gray;
+            opacity: 2;
+        }
+    }
+    .hero-image{
+        flex: 1;
+    }
+
+}
+button{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background-color: #b026ff;
+    border-radius: 0;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: 4px 6px 0px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 0px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 0px 2px rgba(0,0,0,0.75);
+}
+button:hover{
+    
+        background-color: #26262A;
+        box-shadow: 4px 6px 0px 2px #b026ff ;
+        -webkit-box-shadow: 4px 6px 0px 2px #b026ff;
+        -moz-box-shadow: 4px 6px 0px 2px #b026ff;
+        cursor: pointer;
+        transition: 4ms ease-in;
+    
+    
+}
